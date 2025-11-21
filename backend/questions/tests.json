@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Get all questions",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Create new question",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "question_text": "Как дела?"
+      },
+      "expectedStatus": 201
+    }
+  ]
+}
